@@ -165,3 +165,4 @@
 2022.11.16 16:49:08 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/src/main/scala/com/example/spotifyFormats.scala
 2022.11.16 16:49:09 INFO  time: code lens generation in 2.92s
 2022.11.16 16:51:04 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/plugins.sbt
+2022.11.16 16:53:40 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/build.sbt
