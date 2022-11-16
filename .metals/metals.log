@@ -213,3 +213,4 @@ Exception in thread "pool-3-thread-1" java.lang.InterruptedException
 2022.11.16 17:00:09 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/build.sbt
 2022.11.16 17:00:09 INFO  skipping build import with status 'Dismissed'
 2022.11.16 17:01:47 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/plugins.sbt
+2022.11.16 17:03:25 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/build.sbt

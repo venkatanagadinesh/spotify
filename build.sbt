@@ -24,11 +24,8 @@ lazy val root = (project in file(".")).
       "com.typesafe.akka" %% "akka-http-testkit"        % akkaHttpVersion % Test,
       "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion     % Test,
       "org.scalatest"     %% "scalatest"                % "3.1.4"         % Test,
-      jdbc,
-  cache,
-  ws
     )
-  ).enablePlugins(PlayScala)
+  )
 
 resolvers += Resolver.url("maven_central", url("https://repo.maven.apache.org/maven2/"))
 libraryDependencies += "com.typesafe.akka" %% "akka-actor-testkit-typed" % "2.6.0-M2"
