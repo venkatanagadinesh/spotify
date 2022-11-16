@@ -30,3 +30,4 @@ lazy val root = (project in file(".")).
 resolvers += Resolver.url("maven_central", url("https://repo.maven.apache.org/maven2/"))
 libraryDependencies += "com.typesafe.akka" %% "akka-actor-testkit-typed" % "2.6.0-M2"
 resolvers += Resolver.url("maven_central", url("https://repo.maven.apache.org/maven2/"))
+enablePlugins(JavaAppPackaging)
