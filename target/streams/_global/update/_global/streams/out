@@ -2,4 +2,8 @@
 [debug] Updating ...
 [warn] Unrecognized repository maven_central, ignoring it
 [warn] Unrecognized repository maven_central, ignoring it
-[debug] Done updating 
+[warn] 
+[warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+[warn] 		com.typesafe.sbt:sbt-native-packager:1.7.6 (sbtVersion=1.0, scalaVersion=2.12)
+[warn] 
+[warn] 	Note: Unresolved dependencies path:
