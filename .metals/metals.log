@@ -174,3 +174,42 @@ Exception in thread "pool-3-thread-1" java.lang.InterruptedException
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 2022.11.16 16:56:41 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/build.sbt
+2022.11.16 16:58:55 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/src/main/scala/com/example/models.scala
+2022.11.16 16:58:55 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/src/main/scala/com/example/App.scala
+2022.11.16 16:59:38 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/build.sbt
+2022.11.16 16:59:42 INFO  running '/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/zx/x3rjltd56759pqp4453qmm8m0000gn/T/metals7999177341825304286/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.11.16 16:59:46 INFO  [info] welcome to sbt 1.7.1 (Oracle Corporation Java 11.0.12)
+2022.11.16 16:59:50 INFO  [info] loading global plugins from /Users/dineshkumar/.sbt/1.0/plugins
+2022.11.16 16:59:51 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/build.sbt
+2022.11.16 16:59:51 INFO  skipping build import with status 'Dismissed'
+2022.11.16 16:59:52 INFO  [info] loading settings for project spotify_recommendations_dev-build-build-build from metals.sbt ...
+2022.11.16 16:59:52 INFO  [info] loading project definition from /Users/dineshkumar/spotify_recommendations_dev/project/project/project
+2022.11.16 16:59:52 INFO  [info] loading settings for project spotify_recommendations_dev-build-build from metals.sbt ...
+2022.11.16 16:59:53 INFO  [info] loading project definition from /Users/dineshkumar/spotify_recommendations_dev/project/project
+2022.11.16 16:59:57 INFO  [success] Generated .bloop/spotify_recommendations_dev-build-build.json
+2022.11.16 16:59:57 INFO  [success] Total time: 4 s, completed 16-Nov-2022, 4:59:57 PM
+2022.11.16 16:59:57 INFO  [info] loading settings for project spotify_recommendations_dev-build from metals.sbt,plugins.sbt ...
+2022.11.16 16:59:57 INFO  [info] loading project definition from /Users/dineshkumar/spotify_recommendations_dev/project
+2022.11.16 16:59:59 INFO  [success] Generated .bloop/spotify_recommendations_dev-build.json
+2022.11.16 16:59:59 INFO  [success] Total time: 2 s, completed 16-Nov-2022, 4:59:59 PM
+2022.11.16 17:00:02 ERROR /Users/dineshkumar/spotify_recommendations_dev/build.sbt:27: error: not found: value jdbc
+2022.11.16 17:00:02 ERROR       jdbc,
+2022.11.16 17:00:02 ERROR       ^
+2022.11.16 17:00:02 ERROR /Users/dineshkumar/spotify_recommendations_dev/build.sbt:28: error: not found: value cache
+2022.11.16 17:00:02 ERROR   cache,
+2022.11.16 17:00:02 ERROR   ^
+2022.11.16 17:00:02 ERROR /Users/dineshkumar/spotify_recommendations_dev/build.sbt:29: error: not found: value ws
+2022.11.16 17:00:02 ERROR   ws
+2022.11.16 17:00:02 ERROR   ^
+2022.11.16 17:00:02 ERROR /Users/dineshkumar/spotify_recommendations_dev/build.sbt:31: error: not found: value PlayScala
+2022.11.16 17:00:02 ERROR   ).enablePlugins(PlayScala)
+2022.11.16 17:00:02 ERROR                   ^
+2022.11.16 17:00:02 ERROR sbt.compiler.EvalException: Type error in expression
+2022.11.16 17:00:02 INFO  [error] sbt.compiler.EvalException: Type error in expression
+2022.11.16 17:00:02 INFO  [error] Use 'last' for the full log.
+2022.11.16 17:00:02 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2022.11.16 17:00:02 INFO  time: ran 'sbt bloopInstall' in 19s
+2022.11.16 17:00:02 ERROR sbt command failed: /Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/zx/x3rjltd56759pqp4453qmm8m0000gn/T/metals7999177341825304286/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2022.11.16 17:00:09 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/build.sbt
+2022.11.16 17:00:09 INFO  skipping build import with status 'Dismissed'
+2022.11.16 17:01:47 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/plugins.sbt
