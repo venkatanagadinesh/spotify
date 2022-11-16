@@ -157,3 +157,11 @@
 2022.11.16 16:45:24 INFO  [success] Total time: 1 s, completed 16-Nov-2022, 4:45:25 PM
 2022.11.16 16:45:25 INFO  time: ran 'sbt bloopInstall' in 32s
 2022.11.16 16:45:25 WARN  Build server is not auto-connectable.
+2022.11.16 16:48:57 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/src/main/scala/com/example/App.scala
+2022.11.16 16:48:58 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/src/main/scala/com/example/endpoints.scala
+2022.11.16 16:49:03 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/src/main/scala/com/example/HttpServer.scala
+2022.11.16 16:49:05 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/src/main/scala/com/example/models.scala
+2022.11.16 16:49:07 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/src/main/scala/com/example/SpotifyClient.scala
+2022.11.16 16:49:08 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/src/main/scala/com/example/spotifyFormats.scala
+2022.11.16 16:49:09 INFO  time: code lens generation in 2.92s
+2022.11.16 16:51:04 WARN  no build target for: /Users/dineshkumar/spotify_recommendations_dev/plugins.sbt
