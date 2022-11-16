@@ -23,23 +23,13 @@ lazy val root = (project in file(".")).
       "ch.megard"         %% "akka-http-cors" % "1.1.3",
       "com.typesafe.akka" %% "akka-http-testkit"        % akkaHttpVersion % Test,
       "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion     % Test,
-      "org.scalatest"     %% "scalatest"                % "3.1.4"         % Test
+      "org.scalatest"     %% "scalatest"                % "3.1.4"         % Test,
+      jdbc,
+  cache,
+  ws
     )
-  )
+  ).enablePlugins(PlayScala)
 
 resolvers += Resolver.url("maven_central", url("https://repo.maven.apache.org/maven2/"))
 libraryDependencies += "com.typesafe.akka" %% "akka-actor-testkit-typed" % "2.6.0-M2"
 resolvers += Resolver.url("maven_central", url("https://repo.maven.apache.org/maven2/"))
-name := """play-getting-started"""
-
-version := "1.0-SNAPSHOT"
-
-lazy val root = (project in file(".")).enablePlugins(PlayScala)
-
-scalaVersion := "2.12.15"
-
-libraryDependencies ++= Seq(
-  jdbc,
-  cache,
-  ws
-)
